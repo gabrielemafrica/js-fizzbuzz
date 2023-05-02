@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(14, 75, 0);
+}
+
+h1{
+    color: white;
+    margin-bottom: 50px;
+}
+
+/* container generale */
+.container{
+    padding: 50px;
+    text-align: center;
+    width: 70%;
+    margin:0 auto;
+}
+
+/* container cerchi */
+
+#box_circle{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(80px * 10);
+}
+
+/* cerchi */
+.circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(14, 75, 0);;
+}
+
+
+.blue{
+    background-color: lightblue;
+}
+
+
+.pink{
+    background-color: pink;
+}
+
+.green{
+    background-color: lightgreen;
+}
+.orange{
+    background-color: orange;
+}
